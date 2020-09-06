@@ -1,0 +1,602 @@
+@media screen and (min-width: 320px) {
+    /* header */
+    header .header-bottom .bottom-right .highlight-item {
+        display: none;
+    }
+    header .header-bottom .header-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    /* section 1: hero-section */
+    section.hero-section .hero-section-wp {
+        transform: translateY(10px);
+        transition: all .5s ease;
+    }
+    section.hero-section .hero-section-wp .show-info-hot-img .info-images-title {
+        font-size: .9rem;
+    }
+    section.hero-section .hero-section-wp .info-images-prod span.thumbNail {
+        height: 240px;
+        transition: all .5s ease;
+    }
+    section.hero-section .hero-section-wp .show-info-hot-content {
+        order: 2;
+    }
+    section.hero-section .hero-section-wp .show-info-hot-img {
+        order: 1;
+    }
+    section.hero-section .hero-section-wp .show-info-hot-time-down {
+        order: 3;
+    }
+    section.hero-section .hero-section-wp .show-info-hot-content {
+        padding-top: 20px;
+    }
+    section.hero-section .hero-section-wp .info-content-prod {
+        text-align: center;
+    }
+    section.hero-section .hero-section-wp .info-content-prod .title-group .sub-title {
+        font-size: 1rem;
+    }
+    section.hero-section .hero-section-wp .show-info-hot-content {
+        flex: 0 0 95%;
+        margin: 0 auto;
+    }
+    section.hero-section .hero-section-wp .info-content-prod .price-group .current-price span.price-label {
+        font-size: 2rem;
+    }
+    section.hero-section .hero-section-wp .info-content-prod .price-group span.price-icon {
+        --range: 30px;
+    }
+    section.hero-section .hero-section-wp .info-content-prod .price-group span.price-label {
+        font-size: 1rem;
+    }
+    section.hero-section .hero-section-wp .info-content-prod .button-group {
+        flex-direction: column;
+        --range-margin: 15px;
+    }
+    section.hero-section .hero-section-wp .info-content-prod .button-group a.btn-link {
+        width: 100%;
+        margin: 5px 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    section.hero-section .hero-content .info-name-respon-prod h2 {
+        font-size: 1.5rem;
+    }
+
+    section.hero-section .hero-content .info-content-prod .price-group p.__price__.current-price {
+        justify-content: center;
+    }
+    section.hero-section .hero-content .info-content-prod .price-group p.__price__ {
+        justify-content: flex-start;
+        padding: 5px 0;
+    }
+    section.hero-section .hero-content .count-down-time-wp {
+        transform: translateY(35px);
+    }
+    section.hero-section .hero-content .count-down-time-wp .timer .timer-title {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    section.hero-section {
+        height: 980px;
+        transition: all .5s ease;
+    }
+    section.hero-section .hero-content .count-down-time-wp .timer .timer-inner .timer-item span {
+        --range-size: 62px;
+    }
+    section.hero-section .hero-content .count-down-time-wp .timer .timer-inner .timer-item span:nth-child(1) {
+        font-size: 1.8rem;
+    }
+
+    /* section 2: section.our-story */
+    section.our-story {
+        margin-top: 20px;
+    }
+
+    section.our-story .our-story-content {
+        padding: 25px;
+    }
+
+    section.our-story .our-story-wp .our-story-video {
+        height: 300px;
+        border-top-left-radius: var(--border-radius-size);
+        border-bottom-left-radius: var(--border-radius-size);
+    }
+
+    .popup-modal-video .modal-dialog {
+        --range-size-width: 90%;
+        --range-size-height: calc(var(--range-size-width) - 45%);
+    }
+
+    /* section 3: many-benefit */
+
+    section.many-benefit {
+        margin-top: 50px;
+        --range-margin-bottom: 6px;
+    }
+
+    section.many-benefit .awesome-service-head .awesome-service-title {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+
+    /* section 4: we-provide */
+    section.we-provide {
+        margin-top: 20px;
+    }
+
+    section.we-provide .we-provide-wp .we-provide-content {
+        --range-padding: 30px;
+    }
+
+    section.we-provide .we-provide-content .group-title .title {
+        font-size: 1.5rem;
+    }
+
+    /* section: 5 service-page */
+    section.service-page {
+        margin-top: 20px;
+    }
+
+    section.service-page .service-page-body .our-service-box {
+        height: 550px;
+    }
+
+    section.service-page .service-page-body .our-service-box .our-service-content {
+        padding: 20px;
+    }
+
+    section.service-page .service-page-head .service-page-title {
+        font-size: 1.5rem;
+    }
+
+    /* section 6: success-section */
+    section.success-section {
+        margin-top: 40px;
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+
+    section.success-section .success-box {
+        padding: 15px 0;
+    }
+
+    .success-box .group-icon span.logo-thumbNail {
+        --range-size: 80px;
+    }
+
+    /* section 7: user-say */
+    section.user-say {
+        margin-top: 40px;
+    }
+
+    section.user-say .section-title h2 {
+        font-size: 1.5rem;
+    }
+
+    /* section 8: order */
+    section.order {
+        margin-top: 90px;
+    }
+
+    section.order .order-body form.checkout-form-wp {
+        padding: 10px;
+    }
+
+    /* section 9: procedure */
+    section.procedure {
+        margin-top: 30px;
+    }
+    section.procedure .procedure-head .procedure-title {
+        font-size: 1.5rem;
+    }
+    section.procedure .procedure-body .work-box.border-line::after {
+        display: none;
+    }
+
+    /* section: 10 latest news */
+    section.latest-news {
+        margin-top: 30px;
+    }
+    section.latest-news .section-title .title {
+        font-size: 1.5rem;
+    }
+
+    /* section: 11 address-contact */
+    section.address-contact {
+        margin-top: 70px;
+    }
+
+    section.address-contact .address-contact-wp .contact-info {
+        padding: 20px;
+    }
+
+    section.address-contact .iframe-map-wp {
+        height: 300px;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+        margin-top: 50px;
+        padding-top: 50px
+    }
+
+    footer .info-about-me .group-desc {
+        width: 100%;
+    }
+
+    footer .info-about-me .group-contact {
+        width: 100%;
+    }
+
+    footer .info-about-me .group-contact {
+        flex-direction: column;
+    }
+
+    footer .info-about-me .group-contact a.phone-contact {
+        width: 100%;
+        margin: 5px 0;
+        padding: 12px 5px;
+    }
+
+    footer .copyright {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    footer .copyright .__item {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (min-width: 357px) {
+    section.hero-section .hero-section-wp .show-info-hot-content {
+        flex: 0 0 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    /* section 1: hero-section */
+    section.hero-section {
+        height: 1020px;
+        transition: all .5s ease;
+    }
+    section.hero-section .hero-section-wp {
+        transform: translateY(10px);
+        transition: all .5s ease;
+    }
+    section.hero-section .hero-content .info-name-respon-prod h2 {
+        font-size: 1.7rem;
+    }
+    section.hero-section .hero-section-wp .info-content-prod .title-group .sub-title {
+        font-size: 1.5rem;
+    }
+    section.hero-section .hero-section-wp .info-content-prod .price-group .current-price span.price-label {
+        font-size: 2.5rem;
+    }
+    section.hero-section .hero-section-wp .info-content-prod .price-group span.price-icon {
+        --range: 35px;
+    }
+    section.hero-section .hero-section-wp .info-content-prod .price-group span.price-label {
+        font-size: 1.5rem;
+    }
+    section.hero-section .hero-section-wp .show-info-hot-content {
+        flex: 0 0 95%;
+        margin: 0 auto;
+    }
+
+   /* section 5: service-page */
+
+    section.service-page .service-page-body .our-service-box .our-service-content {
+        padding: 20px;
+    }
+
+    section.service-page .our-service-box .our-service-content .group-title .title {
+        font-size: 1.2rem;
+    }
+
+    section.service-page .service-page-body .our-service-box {
+        height: 500px;
+    }
+
+
+}
+
+@media screen and (min-width: 600px) {
+    /* section 1: hero-section */
+    section.hero-section {
+        height: 1111px;
+        transition: all .5s ease;
+    }
+    section.hero-section .hero-content .info-name-respon-prod h2 {
+        font-size: 2.5rem;
+    }
+    section.hero-section .hero-section-wp {
+        transform: translateY(10px);
+        transition: all .5s ease;
+    }
+    section.hero-section .hero-section-wp .info-images-prod span.thumbNail {
+        height: 320px;
+        transition: all .5s ease;
+    }
+    section.hero-section .hero-section-wp .show-info-hot-img .info-images-title {
+        font-size: 1.4rem;
+    }
+    section.hero-section .hero-section-wp .show-info-hot-content {
+        flex: 0 0 95%;
+    }
+    section.hero-section .hero-section-wp .show-info-hot-content {
+        flex: 0 0 80%;
+        margin: 0 auto;
+    }
+
+    /* section 3: we-provide */
+
+    section.we-provide .we-provide-content .group-title .title {
+        font-size: 2rem;
+    }
+
+    /* section 5: service-page */
+    section.service-page .service-page-head .service-page-title {
+        font-size: 2rem;
+    }
+
+    section.service-page .our-service-box .our-service-content .group-title .title {
+        font-size: 1.5rem;
+    }
+
+    section.service-page .service-page-body .our-service-box {
+        height: 460px;
+    }
+
+    section.user-say .section-title h2 {
+        font-size: 2rem;
+    }
+
+    section.order .order-body form.checkout-form-wp {
+        padding: 20px;
+    }
+
+    /* section 9: procedure */
+    section.procedure .procedure-head .procedure-title {
+        font-size: 2rem;
+    }
+
+    /* section: 10 latest news */
+    section.latest-news .section-title .title {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /* header */
+    header .header-bottom .header-inner {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    /* section 1: hero-section */
+    section.hero-section {
+        height: 1190px;
+        transition: all .5s ease;
+    }
+    section.hero-section .hero-section-wp {
+        transform: translateY(60px);
+        transition: all .5s ease;
+    }
+    section.hero-section .hero-section-wp .info-images-prod span.thumbNail {
+        height: 370px;
+        transition: all .5s ease;
+    }
+    section.hero-section .hero-content .info-content-prod .price-group p.__price__ {
+        justify-content: center;
+    }
+
+    /* section 3: we-provide */
+    section.we-provide .we-provide-wp .we-provide-content {
+        --range-padding: 50px;
+    }
+
+    /* section 5: service-page */
+
+    section.service-page .service-page-body .our-service-box {
+        height: 520px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    /* section 1: hero-section */
+    section.hero-section .hero-section-wp .show-info-hot-content {
+        order: 1;
+    }
+    section.hero-section .hero-section-wp .show-info-hot-img {
+        order: 2;
+    }
+    section.hero-section .hero-section-wp .show-info-hot-time-down {
+        order: 3;
+    }
+    section.hero-section .hero-section-wp .show-info-hot-content {
+        padding-top: 0px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    section.hero-section .hero-section-wp .info-content-prod .price-group span.price-label {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+     /* header */
+     header .header-bottom .bottom-right .highlight-item {
+        display: block;
+    }
+
+    /* section 1: hero-section */
+    section.hero-section {
+        height: 980px;
+        transition: all .5s ease;
+    }
+    section.hero-section .hero-content .count-down-time-wp .timer .timer-inner .timer-item span {
+        --range-size: 100px;
+    }
+    section.hero-section .hero-content .count-down-time-wp .timer .timer-inner .timer-item span:nth-child(1) {
+        font-size: 3rem;
+    }
+    section.hero-section .hero-section-wp {
+        transform: translateY(40px);
+        transition: all .5s ease;
+    }
+    section.hero-section .hero-content .count-down-time-wp {
+        transform: translateY(50px);
+    }
+    section.hero-section .hero-section-wp .info-images-prod span.thumbNail {
+        height: 450px;
+        transition: all .5s ease;
+    }
+    section.hero-section .hero-section-wp .info-content-prod .button-group {
+        --range-margin: 20px;
+    }
+
+    section.hero-section .hero-content .info-content-prod .button-group a.btn-link {
+        width: 75%;
+    }
+
+    section.hero-section .hero-content .info-content-prod .price-group p.__price__ {
+        padding: 10px 0;
+    }
+
+    /* section 2: section.our-story */
+    section.our-story {
+        margin-top: 60px;
+    }
+
+    section.our-story .our-story-content {
+        padding: 50px;
+    }
+
+    section.our-story .our-story-wp .our-story-video {
+        height: 100%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .popup-modal-video .modal-dialog {
+        --range-size-width: 70%;
+        --range-size-height: calc(var(--range-size-width) + 10%);
+    }
+
+    section.many-benefit .awesome-service-head .awesome-service-title {
+        font-size: 1.4rem;
+        line-height: 1.2;
+    }
+
+    /* section 3 : many-benefit  */
+    section.many-benefit {
+        margin-top: 100px;
+        --range-margin-bottom: 30px;
+    }
+
+    /* section 4: we-provide */
+    section.we-provide {
+        margin-top: 60px;
+    }
+
+    /* section: 5 service-page */
+    section.service-page {
+        margin-top: 60px;
+    }
+
+    section.service-page .service-page-body .our-service-box .our-service-content {
+        padding: 50px;
+    }
+    
+    section.service-page .service-page-body .our-service-box {
+        height: 580px;
+    }
+
+    /* section 6: success-section */
+    section.success-section {
+        margin-top: 60px;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+    section.success-section .success-box {
+        padding: 0 0;
+    }
+
+    .success-box .group-icon span.logo-thumbNail {
+        --range-size: 90px;
+    }
+
+    /* section 7: user-say */
+    section.user-say {
+        margin-top: 60px;
+    }
+
+    /* section 8: order */
+    section.order {
+        margin-top: 150px;
+    }
+    /* section 9: procedure */
+    section.procedure {
+        margin-top: 80px;
+    }
+
+    section.procedure .procedure-body .work-box.border-line::after {
+        display: block;
+    }
+
+    /* section: 10 latest news */
+    section.latest-news {
+        margin-top: 80px;
+    }
+
+    /* section: 11 address-contact */
+    section.address-contact {
+        margin-top: 100px;
+    }
+    section.address-contact .address-contact-wp .contact-info {
+        padding: 50px;
+    }
+
+    section.address-contact .iframe-map-wp {
+        height: 100%;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+        margin-top: 100px;
+        padding-top: 100px;
+    }
+
+    footer .info-about-me .group-desc {
+        width: 60%;
+    }
+
+    footer .info-about-me .group-contact {
+        width: 50%;
+    }
+
+    footer .info-about-me .group-contact {
+        flex-direction: row;
+    }
+
+    footer .info-about-me .group-contact a.phone-contact {
+        width: inherit;
+        margin: 0 10px;
+        padding: 10px 40px;
+    }
+
+    footer .copyright {
+        margin-top: 100px;
+        flex-direction: row;
+    }
+
+    footer .copyright .__item {
+        font-size: 1rem;
+    }
+}
